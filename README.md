@@ -1,15 +1,19 @@
-# Cursor
+# Sauda
 
-This repository exists to test the capabilities of [Cursor](https://cursor.com).
+A static timeline about the town of Sauda in Rogaland, Norway. The page is in Norwegian Bokmål. The year changes as you scroll, and each stop tells what happened in that year.
 
-It is a sandbox for trying Cursor features — agents, edits, terminal commands, rules, and anything else worth checking — without tying the work to a real product.
+Photos are from Wikimedia Commons and are credited on the page. The text is a short summary of the reference works listed in the footer.
 
-## What this is for
+## Open it locally
 
-- Exercising Cursor’s coding agent on a real git repo
-- Checking how edits, file creation, and commits behave
-- Trying prompts, rules, and workflows in a low-stakes place
+Open `index.html` in a browser, or serve this folder:
 
-## What this is not
+```powershell
+python -m http.server 8080
+```
 
-This is not an application. There is no build, no runtime, and nothing to deploy. Add files here only when they help a test.
+Then go to [http://localhost:8080/](http://localhost:8080/).
+
+## Published site
+
+[https://tollef-g.github.io/Cursor/](https://tollef-g.github.io/Cursor/)
